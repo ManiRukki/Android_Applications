@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/rock"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:text="Number In 1st Activity:"
+        />
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Number In 2nd Activity:"
+        android:textSize="20dp"
+         />
+
+    <TextView
+        android:id="@+id/tt2"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        />
+
+    <TextView
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+
+        android:text="Adding Two Numbers "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/e1"
+        android:layout_width="164dp"
+        android:layout_height="113dp"
+       android:textSize="50dp"
+
+        android:hint="Result"
+        />
+
+</LinearLayout>

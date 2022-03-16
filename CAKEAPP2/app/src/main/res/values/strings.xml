@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">cake</string>
+
+
+
+    <string-array name="quantity">
+
+        <item>One Kg</item>
+
+
+
+        <item>TwoKg</item>
+
+
+
+        <item>Three Kg</item>
+
+    </string-array>
+
+</resources> 
+
+ 

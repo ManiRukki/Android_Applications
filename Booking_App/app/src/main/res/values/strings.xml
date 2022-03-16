@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Booking_App</string>
+    <string-array name="arrival">
+        <item>Vizag</item>
+        <item>Hyderabad</item>
+        <item>Banglore</item>
+        <item>Vijayawada</item>
+    </string-array>
+
+    <string-array name="destination">
+        <item>Banglore</item>
+        <item>Vizag</item>
+        <item>Hyderabad</item>
+        <item>Vijayawada</item>
+    </string-array>
+</resources>

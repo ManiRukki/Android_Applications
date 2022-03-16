@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flight_Booking_0333</string>
+    <string-array name="arrival">
+        <item>Presidency University</item>
+        <item>Reva University</item>
+        <item>New-Horizon</item>
+        <item>M.S.Ramaiah</item>
+        <item>SathyaBhama</item>
+    </string-array>
+</resources>

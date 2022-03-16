@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/running_girl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="284dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/handbmi"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Height :"
+        android:layout_marginTop="170dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/design_default_color_primary_variant"
+    />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="165dp"
+        android:gravity="center"
+        android:hint="Enter your Height"
+        android:textColor="@color/rock"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent" />
+       <RadioGroup
+           android:id="@+id/radioGroup"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="130dp"
+           android:layout_marginTop="220dp"
+           android:orientation="horizontal"
+           >
+           <RadioButton
+               android:id="@+id/r1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="m"
+               android:textStyle="italic"
+               android:checked="true"
+               android:textColor="@color/design_default_color_primary_variant"
+               />
+           <RadioButton
+               android:id="@+id/r2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="cm"
+               android:textStyle="italic"
+               android:textColor="@color/design_default_color_primary_variant"
+               />
+           <RadioButton
+               android:id="@+id/r3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="feet"
+               android:textStyle="italic"
+               android:textColor="@color/design_default_color_primary_variant"
+               />
+       </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Weight :"
+        android:textStyle="italic"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="25dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+
+        />
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Weight"
+        android:textColor="@color/rock"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="180dp"
+        android:gravity="center"/>
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="370dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kgs"
+            android:checked="true"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary_variant"/>
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lbs"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textColor="@color/design_default_color_primary_variant"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Calculate"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_surface"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="550dp"
+        android:text="Your BMI is :"
+        android:textColor="@color/limerick"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="550dp"
+        android:hint="result is"
+        android:textColor="@color/rock"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="620dp"
+        android:text="Your Body is in ____________________condition"
+        android:textSize="20sp"
+        android:textColor="@color/rock"/>
+    <TextView
+        android:id="@+id/fit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="618dp"
+        android:hint="category"
+        android:textColor="@color/limerick"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:id="@+id/empty"
+        android:backgroundTint="@color/green"
+        android:text="Reset"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="300dp"
+        />
+</RelativeLayout>
